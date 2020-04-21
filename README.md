@@ -2,7 +2,7 @@
 Code for project: 'Machine Learning for Classifying Tremor Using Smartphone Accelerometers and Clinical Features'
 
 ## Introduction:
-These programs are used to analyze accelerometer recordings from tremor patients (**part 1**), and then uses unsupervised (**part 2**) and supervised machine learning techniques (part 3) to either cluster the data or train supervised machine learning classifiers using this data, respectively.
+These programs are used to analyze accelerometer recordings from tremor patients (**Part 1**), and then uses unsupervised (**Part 2**) and supervised machine learning techniques (**Part 3**) to either cluster the data or train supervised machine learning classifiers using this data, respectively.
 
 ## Requirements:
 The following must be installed to run all required programs:
@@ -11,7 +11,10 @@ The following must be installed to run all required programs:
 - matplotlib (https://matplotlib.org/users/installing.html)
 - UMAP (https://umap-learn.readthedocs.io/en/latest/)
 
-## Part 1:
+The accelerometer recording files must be downloaded from the following link in order to run the code in Part 1, and the folder structure must be maintained as is in this compressed file:
+- https://www.dropbox.com/s/256m6vzgr3jarns/AccelerometerRecordings.zip?dl=0
+
+## Part 1 - Analyzing Accelerometer Tremor Recordinds:
 **Note:** To go directly to training machine learning classifiers using features (both time-series and frequency power-spectra metrics) obtained through analyzing tremor acceletometer recordings, skip to **part 2** below.
 
 ### Overview: 
@@ -34,7 +37,7 @@ Similarly, **tremor_analysis_cincinatti.py** analyzes recording made in cincinat
 In **tremor_accelerometerdata_analysis.py**, the PATH variable refers to the folder path where this file, the required input .csv metadata file (the metadata file containing the list of all patient data (patient initials/labels, age, sex etc)) and the tremor accelerometer data files for each patient are stored. The user must set PATH according to where this file and the required .csv files are stored on their computer. 
 This similary applies to **tremor_analysis_cincinatti.py** as well.
 
-## Part 2:
+## Part 2 - Unsupersived Clustering Analysis:
 ### Overview:
 The programs in part 2 use as features the metrics obtained from analyzing the accelerometer recordings in part 1 (above). Firstly, unsupervised machine learning methods are used to cluster tremor data (program #1, #2). Next, supervised machine learning classifiers are trained and tested on the tremor data (program #3, #.
 
@@ -68,6 +71,7 @@ The data features used (i.e. clinical data) are imported from the following .csv
 
 The PATH variable refers to where the above listed data-feature .csv file is stored, and the user must set PATH according to where the file is stored on their machine.
 
+## Part 3 - Supervised Machine Learning Classifiers:
 
 
 ## Maintainers:
