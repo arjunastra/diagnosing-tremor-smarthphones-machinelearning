@@ -15,7 +15,7 @@ The following files must be downloaded:
 - **Code files:** all ".py" python program files in this repository must be downloaded
 - **Accelerometer recording files:** must be downloaded from the following link in order to run the code in Part 1, and the folder structure must be maintained as is in this compressed file: https://www.dropbox.com/s/256m6vzgr3jarns/AccelerometerRecordings.zip?dl=0
 - **Metadata files:** **data_metadata_updated.csv** and **data_metadata_cincinatti.csv** containing all basic non-identifying patient data must be downloaded from this repository in order to run the code in Part 1
-- **Training features:** the .csv files containing the training data/features (which are derived from running the code in Part 1) to be used for Part 2 and Part 3 must downloaded from the following link:
+- **Training features:** the .csv files containing the training data/features (which are derived from running the code in Part 1) to be used for Part 2 and Part 3 must downloaded from the following link: https://www.dropbox.com/sh/h7j9wwjui5qe60k/AACpcBAmBEolDZQrTqrq0xhba?dl=0
 
 ## Part 1 - Analyzing Accelerometer Tremor Recordinds:
 **Note:** To go directly to training machine learning classifiers using features (both time-series and frequency power-spectra metrics) obtained through analyzing tremor acceletometer recordings, skip to **Part 2** below.
