@@ -36,13 +36,40 @@ This similary applies to **tremor_analysis_cincinatti.py** as well.
 
 ## Part 2:
 ### Overview:
-The programs in part 2 use as features the metrics obtained from analyzing the accelerometer recordings in part 1 (above). Firstly, unsupervised machine learning methods are used to cluster tremor data (program #1, #2). Next, supervised machine learning classifiers are trained and tested on the tremor data.
+The programs in part 2 use as features the metrics obtained from analyzing the accelerometer recordings in part 1 (above). Firstly, unsupervised machine learning methods are used to cluster tremor data (program #1, #2). Next, supervised machine learning classifiers are trained and tested on the tremor data (program #3, #.
 
-- - This program uses unsupervised machine learning techniques to cluster data agnostically without using their known labels, and only uses known labels to color-code the data when being displayed for the user
-- Specifically, the Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP) is used (https://arxiv.org/abs/1802.03426), but also other methods such as t-SNE (https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) can be used as well in this code
-- The data features used for clustering analysis can be chosen by the user, and include accelerometer data alone, accelerometer data alone but only for patients who had clinical data, combined accelerometer and clinical data, and the use of control (non-tremor) data amongst these groups
-- Note: The data features used were computed separately using another code (see README) and stored in .csv text files. These files are imported in this program, and various combinations of features to be used can be selected by the user.
-'''
+### Program #1 - tremor_clustering.py:
+#### Description:
+This program uses unsupervised machine learning techniques to cluster data agnostically without using their known labels, and only uses known labels to color-code the data when being displayed for the user. Specifically, the Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP) is used (https://arxiv.org/abs/1802.03426), but also other methods such as t-SNE (https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) can be used as well in this code.
+
+The data features used for clustering analysis can be chosen by the user, and include accelerometer data alone, accelerometer data alone but only for patients who had clinical data, combined accelerometer and clinical data, and the use of control (non-tremor) data amongst these groups.
+
+#### Configuration:
+The data features used are imported from the following .csv files, which must be downloaded to the user's machine and located in the same folder:
+- AllAnalysisData_training1.csv
+- AllAnalysisData_training_sameAsClinical.csv
+- AllAnalysisData_training_sameAsClinical_+clinicalVars.csv
+- AllAnalysisData_training1_+controls_noExtras.csv
+- AllAnalysisData_training1_+controls_noExtras.csv
+- AllAnalysisData_training1_+controls.csv
+- AllAnalysisData_training1_+controls_noET.csv
+
+The PATH variable refers to where the above listed data-feature .csv files are stored, and the user must set PATH according to where these files are stored on their machine.
+
+### Program #2 - tremor_clustering_clinicalData.py:
+#### Description:
+This program uses unsupervised machine learning techniques to cluster data agnostically using clinical data as features and without using their known labels, and only uses known labels to color-code the data when being displayed for the user. Specifically, the Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP) is used (https://arxiv.org/abs/1802.03426), but also other methods such as t-SNE (https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) can be used as well in this code
+
+The data features used for clustering analysis can be chosen by the user, and includes features from clinical data alone (see Configuration below).
+
+#### Configuration:
+The data features used (i.e. clinical data) are imported from the following .csv file, which must be downloaded to the user's machine:
+- tremor_clinical_spreadsheet_forAnalysis.csv
+
+The PATH variable refers to where the above listed data-feature .csv file is stored, and the user must set PATH according to where the file is stored on their machine.
+
+
+
 ## Maintainers:
 Current maintainers:
 - Dr. Arjun Balachandar (http://linkedin.com/in/arjunbalachandar)
