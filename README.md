@@ -43,3 +43,6 @@ The programs in part 2 use as features the metrics obtained from analyzing the a
 - The data features used for clustering analysis can be chosen by the user, and include accelerometer data alone, accelerometer data alone but only for patients who had clinical data, combined accelerometer and clinical data, and the use of control (non-tremor) data amongst these groups
 - Note: The data features used were computed separately using another code (see README) and stored in .csv text files. These files are imported in this program, and various combinations of features to be used can be selected by the user.
 '''
+## Maintainers:
+Current maintainers:
+- Dr. Arjun Balachandar (http://linkedin.com/in/arjunbalachandar)
