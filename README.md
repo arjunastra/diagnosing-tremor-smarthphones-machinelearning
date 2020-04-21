@@ -28,7 +28,7 @@ These analyses are conducted using the functions 'timeseries_analysis' and 'freq
 
 The final output file containing all analysis features for each patient can also be used as input features for machine learning algorithms (see README file for mor details).
 
-**Program #2: **tremor_analysis_cincinatti.py**
+**Program #2: tremor_analysis_cincinatti.py**
 Similar to tremor_accelerometerdata_analysis.py, this program analyzes recordings made specifically in cincinatti, and applies the same analysis as in tremor_accelerometerdata_analysis.py.
 
 ### Configuration:
