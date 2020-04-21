@@ -28,10 +28,18 @@ The file **tremor_accelerometerdata_analysis.py** must be saved in the same fold
 
 Specifically, each of the 4 tremor recording .csv files per patient are stored in their own respective folders corresponding to each of the recording positions (i.e. 'bat', 'kin', 'out' & 'rest'). These four folders are stored in a patient's own folder, named according to their initials (e.g. 'DG'). Each of these patient-folders are stored in a 'date' folder corresponding to the date the patient was recorded in the format month-space-day-space-year (e.g. 'may 14 2015').
 
+Similarly, **tremor_analysis_cincinatti.py** analyzes recording made in cincinatti, and applies the same analysis as in tremor_accelerometerdata_analysis.py
+
 #### Modification of PATH:
-In **tremor_accelerometerdata_analysis.py**, the PATH variable refers to the folder path where this file, the required input .csv metadata file (the metadata file containing the list of all patient data (patient initials/labels, age, sex etc)) and the tremor accelerometer data files for each patient are stored. The user must set PATH according to where this file and the required .csv files are stored on their computer.
+In **tremor_accelerometerdata_analysis.py**, the PATH variable refers to the folder path where this file, the required input .csv metadata file (the metadata file containing the list of all patient data (patient initials/labels, age, sex etc)) and the tremor accelerometer data files for each patient are stored. The user must set PATH according to where this file and the required .csv files are stored on their computer. 
+This similary applies to **tremor_analysis_cincinatti.py** as well.
 
 ## Part 2:
 ### Overview:
-The programs in part 2 use as features the metrics obtained from analyzing the accelerometer recordings in part 1 (above).
-- ass
+The programs in part 2 use as features the metrics obtained from analyzing the accelerometer recordings in part 1 (above). Firstly, unsupervised machine learning methods are used to cluster tremor data (program #1, #2). Next, supervised machine learning classifiers are trained and tested on the tremor data.
+
+- - This program uses unsupervised machine learning techniques to cluster data agnostically without using their known labels, and only uses known labels to color-code the data when being displayed for the user
+- Specifically, the Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP) is used (https://arxiv.org/abs/1802.03426), but also other methods such as t-SNE (https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) can be used as well in this code
+- The data features used for clustering analysis can be chosen by the user, and include accelerometer data alone, accelerometer data alone but only for patients who had clinical data, combined accelerometer and clinical data, and the use of control (non-tremor) data amongst these groups
+- Note: The data features used were computed separately using another code (see README) and stored in .csv text files. These files are imported in this program, and various combinations of features to be used can be selected by the user.
+'''
