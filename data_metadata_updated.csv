@@ -1,0 +1,89 @@
+Date,Name,Age,MRN,Which hand used,File names,Basic Diagnosis,Diagnosis,comments
+July 13 2015,RS,48M,3054834,R,1013 r; 1014 o; 1015 b; 1018 k,PD,PD,"good waveforms, but the outstretched had a reemrgent tremor that took few seconds to max, may have to exclude first few seconds"
+,DG,65M,330294,R,1140r; 1141 o; 1141 b; 1143k,PD,PD with dyskinesias; has DBS,hardly captured the tremor; may have to exclude
+,FV,48M,2113432,L,1545r; 1546 o; 1547 b; 1548 k,PD,PD with parkin mutation c dbs,
+July 14 2015,CK,63F,control,R,1042; 104303; 104355; 1045,PD,PD control,
+,CW,60F,control,R,1122; 1123; 1124; 1125,PD,PD control,
+,SV,48M,control,R,,PD,PD control,
+,SW,?M,2216175,L,1155; 1156; 1157; 1158,ET,ET with DBS in off,
+July 20 2015,HFM,70M,4278069,L,1113; 1114; 1114; 1116,Dystonic tremor,Dystonic tremor,"Blepharospasm grd 1, torticollis, writers cramp (LHD), asymmetric tremor way worse on the left"
+,WLS,54M,2899786,L,1333-1337,PD,PD ,hardly any obvious tremor; lots of dyskinesia
+,WLS_control_wife,49F,control,R,1338-1340,PD,PD control,
+,NH,82M,4215407,L,1454-1456,ET,ET,
+,NH_control,82F,control,R,1501-1504,ET,ET control,
+,AG,63M,3283479,L,1508-1510,PD,PD,had remergent tremor for batwing but not outstretched hand; how to handle this data
+July 22 2015,WG,79M,6282175,R,1030-1033,PD,PD (though classified as ET in neurosx file),he had a left u/s thalamotomy? Basically for the right hand but hand still very symptomatic
+,JS,84M,1029563,L,1225-1227,ET,ET,Fragile X tremor syndrome
+,HH,65M,3910257,R,1247-1250,PD,PD,Dr. munhoz patient
+,AYG,76F,2414642,R/leg,1600-1604,Ortho tremor,Ortho tremor,"measured right leg just above knee, and ?physiological tremor of right hand"
+July 23 2015,?,71F,control,R,1357-1400,PD,PD control,
+July 31 2015,MG,50M,3297751,L,1038-1041,PD,PD (initially thought to be ET),
+,MM,70F,2444899,L,1146-1148,Dystonic tremor,Dystonic tremor,cervical as well as left hand dystonia
+May 25 2016,MAG,69M,,L,115252 - r ; 115435 - b; 115607 - o; 115812 - kin,ET,ET,ET with dysautonomia
+May 27 2016,GM,73F,,R,left hand r - 103314 ;  right hand r: 104047; left hand bat: 103459; right hand bat:  103639; 103808 - o; 103920 - k,Dystonic tremor,Dystonic tremor,
+,JF,59M,,L,104506 - r;  104650 - b; 104820 - o; 104948 - k,PD,PD,
+,SSA,64M,,R,120209 - r; 120416 - b; 120601 - o; 120753 - k,PD,PD,PD with ET (?)
+,MW,66F,,L,151959 - r; 152134/152123 - b;  152231 - o; 152331 - k,ET,ET,
+,CFZ,68M,,R,160151 - r; 160333 - b; 160446 - o; 160656 - k,ET,ET,
+July 15 2016,NJ,78F,,L,101124-r; 101249 - b; 101415 - o; 101544 - k,PD,PD,
+,TR,57M,,L,110606-r;110734-b;110901 - o;111049 - k,PD,PD,
+,DL,68F,,L,121509-r; 121616-b; 121714 - o; 121808 - k,ET,ET (?),Essential tremor (maybe dystonic tremor)
+,RK,72M,,R,133256-r;  133401-b; 133512 - o; 133617 - k,ET,ET,
+,RP,76M,,R,152307-r; 152437 - b; 152550  - o; 152659 - k,ET,ET,
+,DB,77M,,L,154249 -r; 154401 - b; 154524 - o; 154634 - k,PD,PD,
+,JS,70M,,R,164441 -r; 164707 - b; 164818 -o ; 165021 - k,PD,PD,
+July 4 2017,ER,,,L,130808 -r; 130953 -b; 130903 -o; 131045 - k,Dystonic tremor,Dystonic tremor,
+,TW,,,L,150121 -r; 150256 - b; 150203 -o; 15-04-05 -k,Dystonic tremor,Dystonic tremor,
+July 7 2017,DD,,,N/A,10 54 45 - b; 10 55 16 - k; 10 54 14 -o; 10 53 37 - r,Dystonic tremor,Dystonic tremor,
+,SE,,,N/A,16 21 36 - b; 16 22 28 - k; 16 20 55 - o; 16 20 02 - r,Dystonic tremor,Dystonic tremor,
+,KMJ,53F,,R,,ET,,
+,JT,71M,,R,,Dystonic tremor,"Unilteral hand tremor with neck, jaw, and voice tremor; strong family Hx; son has dystonia",
+,BJ,70F,,R,,ET,,
+,JM,72M,,R,,ET,,
+,DDF,67M,2662903,R,,Dystonic tremor,Dystonic tremor,
+,EAS,85F,4465642,L,,ET,ET?,"most likely ET, but we also considered tremor associated with dystonia and parkinsonism"
+July 14 2017,SM,81F,,L,,ET,ET postural and action tremor along with myoclonus in the setting of cognitive impairment; Dx is unclear yet but may fit ET,
+,RC,72M,,,,ET,,
+,MS,83F,,R,,ET,ET; very asymmetric late onset ET,
+,CT,73M,,L,,ET,,
+,DB,67M,4466302,R,,ET,ET,
+,RE,64M,4466297,R,,ET,ET?,"most likely ET, but had slight left side parkinsonism"
+,JS,67M,4466299,R,,ET,ET,
+July 28 2017,BS,39M,,R,,PD,,
+,JF,75M,,,,ET,,
+,MM,73M,,,,Dystonic tremor,,
+,SA,82M,,,,ET,ET with ?parkinsonian features,
+,GDB,78M,4467996,L,,FXTAS,FXTAS?,"irregular tremor, cognitive decline, myoclonus (Citalopram?), no ataxia"
+,LRB,67M,1011476,R,,ET,Tremor associated with dystonia,
+,MM2,79F,2086099,R,,Dystonic tremor,Dystonic tremor,
+Sept 22 2017,SB,66F,,R,,ET,,
+,GM,M,,,,ET,,
+,GD,67F,,,,ET,,
+,RRB,56M,4491464,R,,Dystonic tremor,Dystonic tremor,
+,ESJ,28M,3900061,R,,ET,ET? Enhanced physiological tremor?,
+,DEC,73 F,4342700,R,17 58 58-b; 18 00 18-k; 17 57 57-o; 17 56 58-r,ET,"1. possible parkinson's disease with prominent action tremor, 2. FXTAS? (genetic tst not ordered, MRI without classical signs, absent FH of premature ovarian failure or autism)",
+Sept 29 2017,EW,66F,,,,Dystonic tremor,,
+,NM,75M,,,,ET,ET with features suggestive of parkinsonism,
+,EK,81F,,,,ET,ET (a mild questionable dystonic posturing of the neck),
+,JJ,83F,,,,ET,,
+,NC,70M,4486975,R,,Dystonic tremor,Dystonic tremor?,dystonic features and mild right parkinsonism
+Oct 20 2017,PD,70M,,L,,ET,Essential tremor plus (postural and action tremor along with dystonic subtle posturing of the left hand),
+,MG,68F,,,,Dystonic tremor,,
+,PAL,60F,2747372,R,,ET,ET? MS-related tremor?,
+,KS,71M,2050303,R,,PD,PD,
+,JR,71M,4489795,R,,ET,ET,
+Nov 3 2017,JC,85M,,,,PD,,
+,AG,74M,,,,ET,,
+,LSM,63M,4492265,L,,ET,"ET? Multifactorial tremor (ET, drugs, parkinsonism)","Most likely ET (action tremor predominantly), but medications and possible parkinsonism can be adding up to his tremor"
+,IBM,51M,3007005,L,,Undetermined,Undetermined tremor syndrome,Undetermined (congenital disease? Dystonic features? ET?)
+Dec 1 2017,BSW,49M,4503167,R,,Dystonic tremor,Dystonic tremor,
+,JM,81F,4436199,L,,ET,ET?,"most likely ET, queried parkinsonism, and much less likely queried dystonic"
+,BC,60M,4503154,R,,ET,ET? Dystonic tremor?,
+,TJR,78F,4148182,R,,FXTAS,FXTAS?,
+,G,74M,,,,PD,PD,
+,M,64F,,,,Dystonic tremor,Dystonic tremor,
+,MS,29F,,,,ET,ET,
+,S,47F,,,,ET,ET,
+Dec 15 2017,L,85F,,,,PD,PD,
+,JB,87M,4503153,R,13 37 04-b; 13 38 05-k; 13 36 06-o; 13 35 10-r,ET,Possible tremor dominant PD,
+,SAS,69 F,2955789,L,10 36 30-b; 10 37 28-k; 10 35 43-o; 10 34 22-r,ET,ET,
