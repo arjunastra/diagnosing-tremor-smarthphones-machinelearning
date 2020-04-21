@@ -11,8 +11,11 @@ The following must be installed to run all required programs:
 - matplotlib (https://matplotlib.org/users/installing.html)
 - UMAP (https://umap-learn.readthedocs.io/en/latest/)
 
-The accelerometer recording files must be downloaded from the following link in order to run the code in Part 1, and the folder structure must be maintained as is in this compressed file:
-- https://www.dropbox.com/s/256m6vzgr3jarns/AccelerometerRecordings.zip?dl=0
+The following files must be downloaded:
+- all ".py" python program files in this repository must be downloaded
+- the accelerometer recording files must be downloaded from the following link in order to run the code in Part 1, and the folder structure must be maintained as is in this compressed file: https://www.dropbox.com/s/256m6vzgr3jarns/AccelerometerRecordings.zip?dl=0
+- the metadata files (**data_metadata_updated.csv** and **data_metadata_cincinatti.csv**) containing all basic non-identifying patient data must be downloaded from this repository in order to run the code in Part 1
+- the .csv files containing the training data/features (which can also be obtained by running the code in Part 1) to be used for Part 2 and Part 3 must downloaded from the following link: 
 
 ## Part 1 - Analyzing Accelerometer Tremor Recordinds:
 **Note:** To go directly to training machine learning classifiers using features (both time-series and frequency power-spectra metrics) obtained through analyzing tremor acceletometer recordings, skip to **part 2** below.
@@ -25,13 +28,14 @@ These analyses are conducted using the functions 'timeseries_analysis' and 'freq
 
 The final output file containing all analysis features for each patient can also be used as input features for machine learning algorithms (see README file for mor details).
 
+**Program file name: **tremor_analysis_cincinatti.py**
+Similar to tremor_accelerometerdata_analysis.py, this program analyzes recordings made specifically in cincinatti, and applies the same analysis as in tremor_accelerometerdata_analysis.py.
+
 ### Configuration:
 #### Folder Directory Structure:
 The file **tremor_accelerometerdata_analysis.py** must be saved in the same folder that the metadata file and the date-folders of the accelerometer recording files are stored in (see next paragraph). All recording files must be stored locally on the user's machine, in the same folder directory structure as downloaded.
 
 Specifically, each of the 4 tremor recording .csv files per patient are stored in their own respective folders corresponding to each of the recording positions (i.e. 'bat', 'kin', 'out' & 'rest'). These four folders are stored in a patient's own folder, named according to their initials (e.g. 'DG'). Each of these patient-folders are stored in a 'date' folder corresponding to the date the patient was recorded in the format month-space-day-space-year (e.g. 'may 14 2015').
-
-Similarly, **tremor_analysis_cincinatti.py** analyzes recording made in cincinatti, and applies the same analysis as in tremor_accelerometerdata_analysis.py
 
 #### Modification of PATH:
 In **tremor_accelerometerdata_analysis.py**, the PATH variable refers to the folder path where this file, the required input .csv metadata file (the metadata file containing the list of all patient data (patient initials/labels, age, sex etc)) and the tremor accelerometer data files for each patient are stored. The user must set PATH according to where this file and the required .csv files are stored on their computer. 
